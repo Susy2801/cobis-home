@@ -43,3 +43,41 @@
   width: 626px;
   height: 700px;
 }
+
+/* ============ Facilities ============= */
+.home__facilities {
+}
+
+.home__facilities h1,
+.home__facilities h3 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.home__facilities h3 {
+  font-weight: 400;
+}
+
+.facilities__container {
+  width: 100%;
+  padding: 0 100px;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.facilities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 250px;
+  background-color: #fafafa;
+  color: #7c6a46;
+}
+
+.facilities i {
+  font-size: 40px;
+}

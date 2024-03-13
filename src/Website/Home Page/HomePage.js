@@ -14,6 +14,28 @@ function HomePage() {
           <img src={heroImg} alt="hero-img" />
         </div>
       </div>
+      <div className="home__facilities">
+        <h1>Our Facilities</h1>
+        <h3>We offer modern (5 star) hotel facilities for your comfort.</h3>
+        <div className="facilities__container">
+          <div className="facilities">
+            <i class="fa-solid fa-person-swimming"></i>
+            <p>Swimming Pool</p>
+          </div>
+          <div className="facilities">
+            <i class="fa-solid fa-person-swimming"></i>
+            <p>Swimming Pool</p>
+          </div>
+          <div className="facilities">
+            <i class="fa-solid fa-person-swimming"></i>
+            <p>Swimming Pool</p>
+          </div>
+          <div className="facilities">
+            <i class="fa-solid fa-person-swimming"></i>
+            <p>Swimming Pool</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
