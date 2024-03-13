@@ -1,0 +1,31 @@
+.header {
+  width: 100%;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  padding: 20px 100px;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-bar a {
+  color: black;
+  transition: 0.3s ease;
+}
+
+.nav-bar a:hover {
+  color: #7e5a14;
+}
+
+.header__cta--btn {
+  background-color: #7c6a46;
+  color: white;
+  text-align: center;
+  padding: 15px 27px;
+  border-radius: 7px;
+  border: none;
+}

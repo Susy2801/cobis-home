@@ -1,0 +1,92 @@
+.hero__container {
+  height: 700px;
+  background-color: bisque;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  z-index: 1;
+  filter: brightness(55%);
+}
+
+.hero__container h1 {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.hero__container h2 {
+  color: white;
+  font-weight: 200;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.room__container {
+  width: 100%;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-auto-flow: row;
+  justify-items: center;
+  gap: 20px;
+}
+
+.room {
+  width: 280px;
+  background-color: #f2f2f2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  object-fit: cover;
+}
+
+.room__img {
+  width: 100%;
+}
+
+.room__detail {
+  padding: 8px;
+  color: #7c6a46;
+  border-bottom: solid 1px #7c6a46;
+}
+
+.room__detail--status h3,
+.room__detail--status h4 {
+  margin: 0;
+}
+
+.room__detail--status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.room__detail--price {
+}
+
+.room__function {
+  padding: 8px;
+}
+
+.room__function button {
+  background-color: #7c6a46;
+  color: white;
+  border: none;
+
+  padding: 8px 15px;
+}
