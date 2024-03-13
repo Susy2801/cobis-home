@@ -26,6 +26,11 @@ function RoomPage() {
               <div className="room__detail--price">100$</div>
             </div>
             <div className="room__function">
+              <div className="function__icon">
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-tv"></i>
+                <i class="fa-solid fa-shower"></i>
+              </div>
               <button>BOOK NOW</button>
             </div>
           </div>

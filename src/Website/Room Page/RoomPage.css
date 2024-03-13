@@ -66,21 +66,38 @@
   border-bottom: solid 1px #7c6a46;
 }
 
-.room__detail--status h3,
-.room__detail--status h4 {
-  margin: 0;
-}
-
 .room__detail--status {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+.room__detail--status h3,
+.room__detail--status h4 {
+  margin: 0;
+}
+
+.room__detail--status h4 {
+  font-size: 10px;
+}
+
 .room__detail--price {
 }
 
 .room__function {
   padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.function__icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.function__icon i {
+  font-size: 10px;
 }
 
 .room__function button {
@@ -88,4 +105,5 @@
   color: white;
   border: none;
   padding: 8px 15px;
+  border-radius: 7px;
 }
