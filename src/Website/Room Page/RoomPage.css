@@ -52,7 +52,7 @@
 .room {
   width: 280px;
   background-color: #f2f2f2;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
   object-fit: cover;
 }
 

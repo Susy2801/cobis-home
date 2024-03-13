@@ -60,11 +60,11 @@
 
 .facilities__container {
   width: 100%;
-  padding: 0 100px;
+  padding: 50px 100px;
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
+  gap: 30px;
 }
 
 .facilities {
@@ -76,8 +76,81 @@
   height: 250px;
   background-color: #fafafa;
   color: #7c6a46;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .facilities i {
   font-size: 40px;
+}
+
+/* ========= ADS ========== */
+.home__ads {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  padding: 40px 100px;
+}
+.ads__bg {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  filter: brightness(70%);
+}
+
+.home__ads h1,
+.home__ads h3 {
+  text-align: center;
+  color: white;
+}
+
+.ads__rooms {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.ads__room {
+  background-color: white;
+  width: 385px;
+  height: 384px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.ads__rooms h4 {
+  color: black;
+  font-weight: 400;
+  text-align: center;
+}
+
+.ads_room img {
+  width: 330px;
+  height: 285px;
+  border-radius: 7px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease forwards;
 }
