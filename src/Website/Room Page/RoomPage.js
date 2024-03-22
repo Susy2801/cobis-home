@@ -1,8 +1,12 @@
 import "./RoomPage.css";
+import { useEffect } from "react";
 import heroImg from "../Asset/video.png";
 import roomImg from "../Asset/Rectangle 26.png";
 function RoomPage() {
   const room = [1, 1, 1, 1, 1, 1, 1];
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll đến đầu trang
+  }, []);
   return (
     <div>
       <div className="hero__container">

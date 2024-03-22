@@ -14,15 +14,30 @@ function Footer() {
             Room to check with us)
           </div>
         </div>
-        <div className="footer__social">
+        <div className="footer__social info__colum">
           <div className="social__title">Social</div>
-          <div className="social__prop">
+          <div className="social__prop ">
             <h6>Facebook</h6>
             <h6>Instagram</h6>
             <h6>Tiktok</h6>
           </div>
         </div>
-        <div className="footer__Contact"></div>
+        <div className="footer__Contact info__colum">
+          <div className="contact__title">Contact</div>
+          <div className="contact__prop">
+            <h6>Phone</h6>
+            <h6>Phone</h6>
+            <h6>Phone</h6>
+          </div>
+        </div>
+        <div className="footer__about info__colum">
+          <div className="about__title">About Us</div>
+          <div className="about__prop">
+            <h6>Lorem isump</h6>
+            <h6>Lorem isump</h6>
+            <h6>Lorem isump</h6>
+          </div>
+        </div>
       </div>
     </footer>
   );

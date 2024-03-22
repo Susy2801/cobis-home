@@ -12,9 +12,13 @@ function Header() {
         <Link to="#!">Giới thiệu</Link>
         <Link to="#!">Liên hệ</Link>
       </nav>
-      <button href="#!" className="header__cta--btn">
+      <a
+        href="https://www.booking.com/hotel/vn/cobis-home.vi.html#tab-main"
+        className="header__cta--btn"
+        target="_blank"
+      >
         Đặt Ngay
-      </button>
+      </a>
     </header>
   );
 }

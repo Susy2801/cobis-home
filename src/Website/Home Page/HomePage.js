@@ -10,6 +10,17 @@ import room3 from "../Asset/room3.png";
 function HomePage() {
   const facilities = [1, 1, 1, 1, 1, 1, 1, 1];
   const [isVisible, setIsVisible] = useState(false);
+  const [width, setWidth] = useState("280px");
+  const [isHover, setHover] = useState("");
+
+  function Fachover(index) {
+    setHover(index);
+    setWidth("400px");
+  }
+
+  function Facleave() {
+    setWidth("280px");
+  }
 
   useEffect(() => {
     const onScroll = () => {
@@ -23,6 +34,11 @@ function HomePage() {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll đến đầu trang
+  }, []);
+
   return (
     <div className="home__container">
       {/* Hero */}
@@ -31,7 +47,12 @@ function HomePage() {
           <h3>Cobi's Home</h3>
           <h2>Hotel for every moment rich in emotion</h2>
           <h5>Every moment feels like the first time in paradise view</h5>
-          <button>Book now</button>
+          <a
+            href="https://www.booking.com/hotel/vn/cobis-home.vi.html#tab-main"
+            target="_blank"
+          >
+            Book now
+          </a>
         </div>
         <div className="home__hero--right">
           <img src={heroImg} alt="hero-img" />
@@ -45,7 +66,12 @@ function HomePage() {
         <h3>We offer modern (5 star) hotel facilities for your comfort.</h3>
         <div className="facilities__container">
           {facilities.map((fac, index) => (
-            <div className="facilities">
+            <div
+              className="facilities"
+              onMouseEnter={() => Fachover(index)}
+              onMouseLeave={() => Facleave(index)}
+              style={index == isHover ? { width: width } : { width: "280px" }}
+            >
               <i class="fa-solid fa-person-swimming"></i>
               <p>Swimming Pool</p>
             </div>
