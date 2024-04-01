@@ -5,6 +5,7 @@ import HomePage from "./Website/Home Page/HomePage";
 import RoomPage from "./Website/Room Page/RoomPage";
 import Header from "./Website/Header/Header";
 import Footer from "./Website/Footer/Footer";
+import Explore from "./Website/Explore Page/Explore";
 
 //Route
 import { Routes, Route } from "react-router-dom";
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/rooms" element={<RoomPage />} />
+        <Route path="explore" element={<Explore />} />
       </Routes>
       <Footer />
     </div>

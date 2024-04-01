@@ -7,7 +7,7 @@ function Header() {
       <img src="" alt="logo" className="header__logo" />
       <nav className="nav-bar">
         <Link to="/">Trang chủ</Link>
-        <Link to="#!">Khám Phá</Link>
+        <Link to="/explore">Khám Phá</Link>
         <Link to="/rooms">Phòng</Link>
         <Link to="#!">Giới thiệu</Link>
         <Link to="#!">Liên hệ</Link>

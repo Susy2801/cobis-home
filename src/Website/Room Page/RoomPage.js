@@ -35,7 +35,13 @@ function RoomPage() {
                 <i class="fa-solid fa-tv"></i>
                 <i class="fa-solid fa-shower"></i>
               </div>
-              <button>BOOK NOW</button>
+              <a
+                href="https://www.booking.com/hotel/vn/cobis-home.vi.html#tab-main"
+                target="_blank"
+                className="room__book--btn"
+              >
+                BOOK NOW
+              </a>
             </div>
           </div>
         ))}
