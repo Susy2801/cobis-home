@@ -14,7 +14,7 @@ function Explore() {
     <div className="explore__container">
       <ReactPlayer
         className="video__player"
-        url="https://www.youtube.com/watch?v=qzxmnyydhP0"
+        url="https://www.youtube.com/watch?v=1LIdrqAf7ic"
         width={1512}
         height={700}
         playing={true}
