@@ -18,6 +18,7 @@
 .nav-bar a {
   color: black;
   transition: 0.3s ease;
+  padding: 6px 6px;
 }
 
 .nav-bar a:hover {
