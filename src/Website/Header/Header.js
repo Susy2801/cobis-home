@@ -1,10 +1,11 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
+import logo from "../Asset/logo.jpg";
 
 function Header() {
   return (
     <header className="header">
-      <img src="" alt="logo" className="header__logo" />
+      <img src={logo} alt="logo" className="header__logo" />
       <nav className="nav-bar">
         <Link to="/">Trang chủ</Link>
         <Link to="/explore">Khám Phá</Link>

@@ -47,6 +47,7 @@
 .home__hero--right img {
   width: 626px;
   height: 700px;
+  object-fit: cover;
 }
 
 /* ============ Facilities ============= */
@@ -139,10 +140,11 @@
   text-align: center;
 }
 
-.ads_room img {
+.ads__pic {
   width: 330px;
   height: 285px;
   border-radius: 7px;
+  object-fit: cover;
 }
 
 @keyframes fadeIn {
