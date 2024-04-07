@@ -35,13 +35,19 @@
   background-color: #7c6a46;
   color: white;
   border: none;
-  padding: 10px 25px;
+  padding: 12px 27px;
   border-radius: 25px;
+  text-align: center;
+}
+
+.home__hero--left a:hover {
+  background-color: #4a3f2a;
 }
 
 .home__hero--right img {
   width: 626px;
   height: 700px;
+  object-fit: cover;
 }
 
 /* ============ Facilities ============= */
@@ -134,10 +140,11 @@
   text-align: center;
 }
 
-.ads_room img {
+.ads__pic {
   width: 330px;
   height: 285px;
   border-radius: 7px;
+  object-fit: cover;
 }
 
 @keyframes fadeIn {

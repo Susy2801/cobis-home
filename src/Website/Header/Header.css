@@ -10,6 +10,12 @@
   z-index: 999;
 }
 
+.header__logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
 .nav-bar {
   display: flex;
   gap: 40px;
@@ -18,6 +24,7 @@
 .nav-bar a {
   color: black;
   transition: 0.3s ease;
+  padding: 6px 6px;
 }
 
 .nav-bar a:hover {
@@ -31,4 +38,8 @@
   padding: 15px 27px;
   border-radius: 7px;
   border: none;
+}
+
+.header__cta--btn:hover {
+  background-color: #4a3f2a;
 }

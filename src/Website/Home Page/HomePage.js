@@ -1,11 +1,11 @@
 import "./HomePage.css";
 import { useState } from "react";
 import { useEffect } from "react";
-import heroImg from "../Asset/Rectangle 5.png";
-import adsImg from "../Asset/Hotel rooms bg.png";
-import room1 from "../Asset/room1.png";
-import room2 from "../Asset/room2.png";
-import room3 from "../Asset/room3.png";
+import heroImg from "../Asset/Cobi/main.jpg";
+import adsImg from "../Asset/Cobi/bg.jpg";
+import room1 from "../Asset/Cobi/room1.jpg";
+import room2 from "../Asset/Cobi/room2.jpg";
+import room3 from "../Asset/Cobi/room3.jpg";
 
 function HomePage() {
   const facilities = [1, 1, 1, 1, 1, 1];
@@ -85,15 +85,15 @@ function HomePage() {
         <h3>All room are design for your comfort</h3>
         <div className="ads__rooms">
           <div className="ads__room">
-            <img src={room1} alt="img" />
+            <img src={room1} alt="img" className="ads__pic" />
             <h4>Television set, Extra sheets and Breakfast</h4>
           </div>
           <div className="ads__room">
-            <img src={room2} alt="img" />
+            <img src={room2} alt="img" className="ads__pic" />
             <h4>Television set, Extra sheets and Breakfast</h4>
           </div>
           <div className="ads__room">
-            <img src={room3} alt="img" />
+            <img src={room3} alt="img" className="ads__pic" />
             <h4>Television set, Extra sheets and Breakfast</h4>
           </div>
         </div>
