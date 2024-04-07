@@ -8,7 +8,7 @@ import room2 from "../Asset/room2.png";
 import room3 from "../Asset/room3.png";
 
 function HomePage() {
-  const facilities = [1, 1, 1, 1, 1, 1, 1, 1];
+  const facilities = [1, 1, 1, 1, 1, 1];
   const [isVisible, setIsVisible] = useState(false);
   const [width, setWidth] = useState("280px");
   const [isHover, setHover] = useState("");
