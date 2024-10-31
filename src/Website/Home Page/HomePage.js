@@ -8,7 +8,7 @@ import room2 from "../Asset/Cobi/room2.jpg";
 import room3 from "../Asset/Cobi/room3.jpg";
 
 function HomePage() {
-  const facilities = [1, 1, 1, 1, 1, 1, 1, 1];
+  const facilities = [1, 1, 1, 1, 1, 1];
   const [isVisible, setIsVisible] = useState(false);
   const [width, setWidth] = useState("280px");
   const [isHover, setHover] = useState("");
