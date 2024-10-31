@@ -11,7 +11,7 @@ function Header() {
         <Link to="/explore">Khám Phá</Link>
         <Link to="/rooms">Phòng</Link>
         <Link to="#!">Giới thiệu</Link>
-        <Link to="#!">Liên hệ</Link>
+        <Link to="https://duynguyen.id.vn/">Liên hệ</Link>
       </nav>
       <a
         href="https://www.booking.com/hotel/vn/cobis-home.vi.html#tab-main"
